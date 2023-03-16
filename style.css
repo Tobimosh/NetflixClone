@@ -162,8 +162,15 @@ header {
   .movie-list {
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: hidden;
+    overflow-x: scroll;
 
+}
+.movie-list::-webkit-scrollbar{
+  display: none;
+}
+.movie-list{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .movie-container{
