@@ -189,6 +189,18 @@ header {
     object-fit: cover;
 
   }
+  .movie:hover{
+    animation: play 1s linear infinite;
+  }
+
+  @keyframes play {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.01);
+    }
+  }
   
    .movie-section h2 {
     font-size: 20px;
