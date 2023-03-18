@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Netflix Home Page</title>
+  <title>Netflix || Home Page</title>
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap">
@@ -17,7 +17,7 @@
 </head>
 <body>
   <div class="main-container">
-    <div>
+    <div class="video-container">
       <video  class="movie-background" autoplay loop muted>
         <source src="/images/mainMovieClip.mp4" type="video/mp4">
         Your browser does not support the video tag.
@@ -28,7 +28,7 @@
         <div class="logo">
           <img src="/images/download.png" alt="Netflix Logo">
         </div>
-      <nav>
+      <nav class="nav-items">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">TV Shows</a></li>
@@ -42,18 +42,23 @@
         <a href="#"><i class="fas fa-ellipsis-v"></i></a>
       </div>
       </header>
+    </div>
       <div class="movie-info">
         <h1 class="movie-title">STRANGER THINGS</h1>
         <div class="button-container">
           <button class="Play-button">&#9658; Play</button>
           <button class="list-button"><i class="fa fa-plus"></i> My List</button>
+          <div class="info-icon">
+            <i class="fas fa-info-circle"></i>
+            <span>Info</span>
+          </div>
         </div>
         <p class="movie-description">When a young boy vanishes, a small town uncovers a mystery <br> involving secret experiments,
            terrifying supernatural forces <br> and one strange little girl</p>
         <button class="watch-button">Watch Now</button>
       </div>
     </div>
-  </div>
+
 
 
 
