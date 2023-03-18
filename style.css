@@ -94,6 +94,12 @@ header {
     transition: transform 450ms ;
   }
 
+  .movie-list{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+  }
   
   .movie-description {
     font-size: 0.8rem;
@@ -145,14 +151,10 @@ header {
   .movie-section {
     margin-top: 10px;
     padding: 0 20px;
+    /* margin-left: 20px;  */
+
   }
   
-  .movie-list {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-
-}
 .movie-list::-webkit-scrollbar{
   display: none;
 }
