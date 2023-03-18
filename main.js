@@ -1,4 +1,4 @@
-const navItems = document.querySelector('.nav-items');
+const navItems = document.querySelector('.mobile-nav__items');
 const icons = document.querySelector('.icons');
 
 icons.addEventListener('click', () => {

@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px 50px 0 50px;
     color: #ffffff;
   }
   
@@ -144,9 +144,6 @@ header {
     margin-right: 5px;
   }
 
-
-  
-
   .movie-section {
     margin-top: 10px;
     padding: 0 20px;
@@ -210,23 +207,51 @@ header {
   .info-icon{
     display: none;
   }
+  .mobile-nav__items ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
 
   @media screen and (max-width: 768px) {
-    .header {
-      padding: 10px 20px;
+    header {
+      padding: 20px 20px;
       font-size: 18px;
     }
     .logo img {
       height: 40px;
     }
-    nav ul {
-      flex-direction: column;
-      align-items: center;
-    }
-    nav a {
-      font-size: 18px;
-      padding: 10px;
-    }
+      .mobile-nav__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+      }
+    
+      .mobile-nav__items ul {
+        margin: 0;
+        /* padding-top: 5rem; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .mobile-nav__items li {
+        list-style: none;
+        margin: 0 10px;
+      }
+    
+      .mobile-nav__items a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+      }
     .icons {
       justify-content: center;
     }
