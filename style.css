@@ -255,7 +255,14 @@ header {
     .button-container {
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-end;
+    }
+    .nav-items {
+      display: none;
+    }
+      
+    .nav-items.show {
+      display: block;
     }
   }
   
