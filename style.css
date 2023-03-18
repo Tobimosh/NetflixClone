@@ -47,7 +47,7 @@ header {
   .icons {
     display: flex;
     justify-content: flex-end;
-    width: 100px;
+     
   }
   
   .icons a {
@@ -219,7 +219,7 @@ header {
 
   @media screen and (max-width: 768px) {
     header {
-      padding: 20px 20px;
+      padding: 20px 10px;
       font-size: 18px;
     }
     .logo img {
@@ -254,6 +254,10 @@ header {
       }
     .icons {
       justify-content: center;
+    }
+    .icons a {
+      padding: 0 0.5rem;
+      margin-left: 10px;
     }
     .movie-description, .watch-button {
       display: none;
