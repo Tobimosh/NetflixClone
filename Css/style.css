@@ -255,7 +255,7 @@ header {
       height: 120px;
     }
     .movie-description{
-      width: 43rem;
+      width: 41rem;
     }
     .movie-info h1{
       font-size: 3.2rem;
@@ -282,7 +282,7 @@ header {
 
     .main-container{
       background-position: center center;
-      height: 70vh;
+      height: 72vh;
     }
     .fadeBottom{
       margin-top: 160px;
