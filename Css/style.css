@@ -254,12 +254,6 @@ header {
       width: 80px;
       height: 120px;
     }
-    .movie-description{
-      width: 41rem;
-    }
-    .movie-info h1{
-      font-size: 3.2rem;
-    }
     .movie-container {
       padding: 0 10px;
     }
@@ -282,11 +276,7 @@ header {
 
     .main-container{
       background-position: center center;
-    }
-    .fadeBottom{
-      margin-top: 160px;
-      height: 7.4rem;
-      background-image: linear-gradient(180deg, transparent, rgba(37,37,37, 0.61), #111);
+      
     }
   }
   
