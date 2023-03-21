@@ -159,15 +159,7 @@ header {
 
   }
 
-  .main-container::after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100px;
-    background-image: linear-gradient(to bottom, transparent, #000);
-  }
+
   
 .movie-list::-webkit-scrollbar{
   display: none;
@@ -213,8 +205,11 @@ header {
   }
 
   .fadeBottom{
-    display: none;
+    margin-top: 145px;
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37,37,37, 0.61), #111);
   }
+
   @media screen and (max-width: 768px) {
     header {
       padding: 20px 10px;
@@ -289,23 +284,11 @@ header {
       min-height: 85vh;
       
     }
-    .main-container::after{
-      display: none;
-    }
-    
+
     .movie-info {
       padding-top: 150px;
-    
     }
-    .fadeBottom{
-      display: block;
-      margin-top: 40px;
-      height: 7.4rem;
-      background-image: linear-gradient(180deg, transparent, rgba(37,37,37, 0.61), #111);
-    }
-  
   }
-
   
 
 
