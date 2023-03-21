@@ -73,7 +73,6 @@ header {
     background-repeat: no-repeat;
     background-position: top center;
     /* background-attachment: fixed; */
-    min-height: 100vh;
 
   }
 
@@ -281,7 +280,7 @@ header {
 
     .main-container{
       background-position: center center;
-      min-height: 85vh;
+      /* min-height: 85vh; */
       
     }
 
